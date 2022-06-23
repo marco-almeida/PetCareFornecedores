@@ -33,7 +33,7 @@
                 </header>
                 <span class="image"><img src="images/pic01.jpg" alt="" /></span>
             </div>
-            <a href="#one" class="goto-next scrolly">Próximo</a>
+            <a href="#login" class="goto-next scrolly">Próximo</a>
         </section>
 
         <!-- One -->
@@ -47,7 +47,9 @@
                     <div class="row gtr-uniform gtr-50">
                         <div class="col-8 col-12-xsmall"><input type="text" name="email" id="email" placeholder="Nome de utilizador" /></div>
                         <div class="col-8 col-12-xsmall"><input type="password" name="password" id="password" placeholder="Palavra-Passe" /></div>
-                        <div class="col-4 col-12-xsmall"><input onclick="location.href='stock.html';" type="button" value="Entrar" class="fit primary" /></div>
+                        
+                        <div class="col-4 col-12-xsmall"><input onclick="validar()" type="button" value="Entrar" class="fit primary" /></div>
+                        <h6 id="message"><br/></h6>
                     </div>
                 </form>
             </div>
@@ -92,6 +94,7 @@
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js "></script>
+    <script src="assets/js/login.js"></script>
     <script src="assets/js/jquery.scrolly.min.js "></script>
     <script src="assets/js/jquery.dropotron.min.js "></script>
     <script src="assets/js/jquery.scrollex.min.js "></script>
