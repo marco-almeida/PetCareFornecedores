@@ -139,36 +139,27 @@
                                 <input type="radio" id="priority-high" name="priority">
                                 <label for="priority-high">Prioridade Alta</label>
                             </div>
-                            <div class="col-6 col-12-medium">
-                                <input type="checkbox" id="copy" name="copy">
-                                <label for="copy">Envie um email por mensagem</label>
-                            </div>
-                            <div class="col-6 col-12-medium">
-                                <input type="checkbox" id="human" name="human" checked>
-                                <label for="human">Não sou um robot</label>
-                            </div>
                             <div class="col-12">
                                 <textarea name="message" id="message" placeholder="Introduza a sua mensagem"
                                     rows="6"></textarea>
                             </div>
                             <div class="col-12">
                                 <ul class="actions">
-                                    <li><input onclick="location.href='stock.html';" type="submit" value="Enviar a mensagem" class="primary" />
+                                    <li><input onclick="enviarMensagem()" type="button" value="Atualizar" class="fit primary" />
                                     </li>
-                                    <li><input type="reset" value="Limpar" /></li>
+                                    <li><input type="reset" value="Limpar"/></li>
                                 </ul>
                             </div>
                         </div>
                     </form>
                 </section>
-
-
             </div>
         </div>
     </div>
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/stock.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/jquery.dropotron.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
