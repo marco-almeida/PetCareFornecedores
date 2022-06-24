@@ -106,17 +106,14 @@
                     <form method="post" action="#">
                         <div class="row gtr-uniform gtr-50">
                             <div class="col-6 col-12-xsmall">
-                                <input type="text" name="name" id="name" value="" placeholder="Name do produto" />
+                                <input type="text" name="name" id="name" value="" placeholder="Nome do produto" />
                             </div>
                             <div class="col-6 col-12-xsmall">
-                                <input type="text" name="quant" id="name" value=""
+                                <input type="text" name="quant" id="quantidade" value=""
                                     placeholder="Quantidade do produto" />
                             </div>
                             <div class="col-6 col-12-xsmall">
-                                <input type="text" name="preco" id="name" value="" placeholder="Preço do produto" />
-                            </div>
-                            <div class="col-6 col-12-xsmall">
-                                <input type="email" name="email" id="email" value="" placeholder="Email" />
+                                <input type="text" name="preco" id="preco" value="" placeholder="Preço do produto" />
                             </div>
                             <div class="col-12">
                                 <select name="category" id="category">
@@ -140,14 +137,15 @@
                                 <label for="priority-high">Prioridade Alta</label>
                             </div>
                             <div class="col-12">
-                                <textarea name="message" id="message" placeholder="Introduza a sua mensagem"
+                                <textarea name="message" id="message" placeholder="Introduza a sua mensagem (opcional)"
                                     rows="6"></textarea>
                             </div>
                             <div class="col-12">
                                 <ul class="actions">
-                                    <li><input onclick="enviarMensagem()" type="button" value="Atualizar" class="fit primary" />
+                                    <li><input onclick="enviarMensagem()" type="button" value="Atualizar stock"
+                                            class="fit primary" />
                                     </li>
-                                    <li><input type="reset" value="Limpar"/></li>
+                                    <li><input type="reset" value="Limpar" /></li>
                                 </ul>
                             </div>
                         </div>
